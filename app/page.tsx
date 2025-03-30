@@ -1,3 +1,11 @@
+import { MyComponent } from "./_components/my-component";
+import { Visualizer } from "./_components/visualizer";
+
 export default function Home() {
-  return <h1 className="font-bold text-3xl underline">Hello world!</h1>;
+  return (
+    <>
+      <MyComponent />
+      <Visualizer />
+    </>
+  );
 }
